@@ -1,0 +1,3 @@
+Welcome,
+
+Though I may reach at times and see connectivity in coincidence and perhaps occasionally mine some surreal meaning out of a superstitious moment, these aren't the rantings of a madman - madness has a certainty to it and me, well, I'm a bit lost most of the time. Every now and then though, the fog parts and I can tell that it's a great sea upon which we float, and stars exist overhead allowing us to ascertain a position - these are the scribblings of a mariner.
