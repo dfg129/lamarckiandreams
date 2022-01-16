@@ -12,19 +12,19 @@ const config = {
 	},
 
 	remarkPlugins: [
-        readingTime(),
-        relativeImages,
-        [remarkExternalLinks, {target: 'blank', rel: 'noopener'}],
-    ],
+		readingTime(),
+		relativeImages,
+		[remarkExternalLinks, { target: 'blank', rel: 'noopener' }]
+	],
 	rehypePlugins: [
-    	slugPlugin,
-    	[
-            autolinkHeadings,
-            {
-                behavior: 'wrap',
-            },
-        ],
-    ],
-};
+		slugPlugin,
+		[
+			autolinkHeadings,
+			{
+				behavior: 'wrap'
+			}
+		]
+	]
+}
 
-export default config;
+export default config

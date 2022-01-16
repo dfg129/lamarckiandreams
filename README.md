@@ -1,2 +1,1 @@
-"I made the wrong mistakes"
-      ~ Thelonious Monk
+"I made the wrong mistakes" ~ Thelonious Monk
