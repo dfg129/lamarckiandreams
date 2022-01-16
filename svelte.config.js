@@ -18,7 +18,7 @@ const config = {
                 ]],
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		target: '#svelte',
         adapter: adapter(),
         vite: {
             server: {
@@ -28,7 +28,7 @@ const config = {
             },
             resolve: {
                 alias: {
-                    '@components': path.resolve('.src/lib/components'),
+                    '@components': path.resolve('./src/lib/components'),
                     '@lib': path.resolve('./src/lib'),
                     '@icons': path.resolve('./src/lib/icons'),
                 },

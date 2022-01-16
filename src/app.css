@@ -1,0 +1,12 @@
+@tailwind base;
+
+html {
+    scroll-behavior: smooth;
+}
+
+@tailwind components;
+.all-prose {
+    @apply prose prose-lg lg:prose-xl;
+}
+
+@tailwind utilities;

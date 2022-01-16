@@ -17,8 +17,7 @@
 </script>
 
 <script>
-    import Head from '@component/head.svelte'
-
+    import Head from '@components/head.svelte'
     export let copy
 </script>
 

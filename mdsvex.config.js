@@ -1,6 +1,7 @@
 import relativeImages from 'mdsvex-relative-images'
 import autolinkHeadings from 'rehype-autolink-headings'
 import slugPlugin from 'rehype-slug'
+import remarkExternalLinks from 'remark-external-links'
 import readingTime from 'remark-reading-time'
 
 const config = {
