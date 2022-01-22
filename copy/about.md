@@ -1,3 +1,1 @@
-# Here in the Western World
-
-`
+*Fear is a whetstone for the knife of knowledge* 

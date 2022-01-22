@@ -4,8 +4,8 @@
 			const copy = await import(`../../copy/about.md`)
 			return {
 				props: {
-					copy: copy.default
-				}
+					copy: copy.default,
+				},
 			}
 		} catch (e) {
 			return {
@@ -17,13 +17,9 @@
 </script>
 
 <script>
-	import Head from '@components/head.svelte'
 	export let copy
 </script>
 
-<Head title={'About'} />
-
-<h1 class="font-bold mb-5 text-5xl">About</h1>
 <div class="mb-10 all-prose">
 	<svelte:component this={copy} />
 </div>
