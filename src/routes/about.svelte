@@ -20,7 +20,7 @@
 	export let copy
 </script>
 
-<div class="mb-10 all-prose">
+<div class="mb-10 italic text-sky-700">
 	<svelte:component this={copy} />
 </div>
 
