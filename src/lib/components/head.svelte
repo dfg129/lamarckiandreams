@@ -1,11 +1,12 @@
 <script>
+// @ts-nocheck
 	import { authName, website } from '@lib/site-config'
 
 	export let title
 	export let description
 	// export let image
 	export let url
-</script>
+</script> 
 
 <svelte:head>
 	<link rel="canonical" href={url} />

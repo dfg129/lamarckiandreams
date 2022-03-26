@@ -1,7 +1,7 @@
 <script>
-	export let post
+//	export let post
 </script>
-
+<!-- 
 <article
 	class="border border-primary bg-base-100 shadow-xl mb-10 p-5 transition hover:text-accent-focus first:pt-0"
 >
@@ -16,4 +16,4 @@
 			</div>
 		</div>
 	</a>
-</article>
+</article> -->

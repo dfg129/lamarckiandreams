@@ -1,5 +1,6 @@
 <script>
-	import { pages, siteName } from '@lib/site-config'
+// @ts-nocheck
+import { pages, siteName } from '@lib/site-config'
 </script>
 
 <div class="bg-neutral shadow-lg text-neutral-content mb-16 top-0 navbar sticky">
@@ -22,9 +23,9 @@
 	<div class="mx-2 px-2 hidden navbar-center lg:flex">
 		<div class="flex items-stretch">
 			{#each pages as { title, path }}
-				<a svetlekit:prefetch href={path} class="rounded-btn btn btn-ghost btn-sm">{title}</a>
+				<a sveltekit:prefetch href={path} class="rounded-btn btn btn-ghost btn-sm">{title}</a>
 			{/each}
 		</div>
 	</div>
 	<div class="navbar-end" />
-</div>
+</div> 

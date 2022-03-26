@@ -1,4 +1,4 @@
-<script context="module">
+<!-- <script context="module">
 	export async function load({ fetch, page: { params } }) {
 		const { slug } = params
 		const res = await fetch(`/posts/${slug}.json`)
@@ -9,17 +9,17 @@
 			}
 		}
 	}
-</script>
+</script> -->
 
 <script>
 	import Head from '$lib/components/head.svelte'
 
-	export let post
-	let { html, date, title, readingTime } = post
+//	export let post
+//	let { html, date, title, readingTime } = post
 </script>
-
-<Head title={`Post | ${title}`} />
-
+<!-- 
+<Head title={`Post | ${title}`} /> -->
+<!-- 
 <article class="flex flex-col flex-grow">
 	<h1 class="font-bold mb-5 text-5xl">{title}</h1>
 	<div class="">
@@ -30,4 +30,4 @@
 			<article />
 		</article>
 	</div>
-</article>
+</article> -->

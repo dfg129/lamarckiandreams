@@ -1,4 +1,4 @@
-<script context="module">
+<!-- <script context="module">
 	export async function load({ fetch }) {
 		const res = await fetch(`/posts.json`)
 		if (res.ok) {
@@ -19,11 +19,14 @@
 
 <Head title={`All the Pretty Horses`} />
 
-<div classs="flex flex-col flex-grow">
+<div class="flex flex-col flex-grow">
 	<h1 class="font-bold mb-5 text-5xl">Saddle up!</h1>
+	<div>
+	<p> ride em cowboy</p>
+	</div>
 	{#each posts as post}
 		{#if post.published}
 			<PostCard {post} />
 		{/if}
-	{/each}
-</div>
+	{/each} 
+</div> -->
