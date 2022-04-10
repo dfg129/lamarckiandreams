@@ -1,5 +1,5 @@
 <script>
-    import { manifesto } from '@lib/site-manifesto'
+    import { manifesto } from './@lib/site-manifesto'
 </script> 
 
 <div class="mb-10 hero">

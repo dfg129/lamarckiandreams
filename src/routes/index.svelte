@@ -1,5 +1,5 @@
-<script>
-	 import Head from '@components/head.svelte'
+<script lang="ts">
+	 import Head from './@components/head.svelte'
 	// import { siteName } from '@lib/site-config'
     // import { manifesto } from '@lib/site-manifesto'
 </script>

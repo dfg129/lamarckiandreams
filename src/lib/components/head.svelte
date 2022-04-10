@@ -1,16 +1,12 @@
-<script>
-// @ts-nocheck
-	import { authName, website } from '@lib/site-config'
-
-	export let title
-	export let description
-	// export let image
-	export let url
+<script lang="ts">
+	import { site } from '$lib/config/site'
+	export let post: Dreamer.Post = undefined
+	export let page: Dreamer.Page = undefined
 </script> 
 
 <svelte:head>
-	<link rel="canonical" href={url} />
+	<!-- <link rel="canonical" href={url} />
 	<title>{title}</title>
 	<meta name="description" content={description} />
-	<meta name="author" content={authName} />
+	<meta name="author" content={authName} /> -->
 </svelte:head>
